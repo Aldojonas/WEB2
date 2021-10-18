@@ -27,7 +27,7 @@ Route::get('/create', [ClienteController::class, 'create']);
 Route::post('/store', [ClienteController::class, 'store']);
 
 //fornecedores
-//Route::get('/fornecedores', [FornecedorController::class, 'show']);
-//Route::get('/index', [FornecedorController::class, 'index']);
-//Route::get('/create', [FornecedorController::class, 'create']);
-//Route::post('/store', [FornecedorController::class, 'store']);
+oute::get('/fornecedores', [FornecedorController::class, 'show']);
+Route::get('/index', [FornecedorController::class, 'index']);
+Route::get('/create', [FornecedorController::class, 'create']);
+Route::post('/store', [FornecedorController::class, 'store']);

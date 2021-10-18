@@ -17,7 +17,7 @@ class FornecedorController extends Controller
     }
 
     public function create(){
-        return view(fornecedores.create);
+        return view('fornecedores.create');
     }
 
     public function store(Request $request){
